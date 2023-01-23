@@ -1,0 +1,25 @@
+{
+  "name": "techblog",
+  "version": "1.0.0",
+  "description": "AS A developer who writes about tech I WANT a CMS-style blog site SO THAT I can publish articles, blog posts, and my thoughts and opinions",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tonyoffor/TechBlog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tonyoffor/TechBlog/issues"
+  },
+  "homepage": "https://github.com/Tonyoffor/TechBlog#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.0.1"
+  }
+}
