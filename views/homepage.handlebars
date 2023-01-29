@@ -7,12 +7,12 @@
      
       <a href="/post/{{post.id}}">{{post.name}}</a>
     </h2>
-    <p>
+    {{!-- <p>
       {{!-- <span for="img" aria-label="money">💲</span>
       <!-- Pass needed_funding value to the helper function -->
       <span class="dollar-amount">{{format_amount project.needed_funding}}</span>
-      needed! --}}
-    </p>
+      needed! 
+    </p> --}}
     <p>Created by {{post.user.name}} on {{format_date post.date_created}}</p>
   </div>
   <div class="col-md-7">
@@ -22,3 +22,6 @@
   </div>
 </div>
 {{/each}}
+
+
+ 
